@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #343A40;
+    width: 100%;
+    height: 60px;
+    border-radius:10px 0 0 0;
+    align-items: center;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.album{
+    display: flex;
+    margin-left: 200px;
+    gap: 8px;
+}
+.album svg{
+    margin-top: 3px;
+}
+.details{
+    margin-right: 200px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.action{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 500px;
+    margin: auto;
+}
+.action div{
+    align-self: center;
+    margin: auto;
+}
+.thumnails{
+    display: inline;
+    flex-direction: row;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: auto;
+}
+
+.section p{
+    display: block;
+    text-wrap: nowrap;
+}
+
+.cart-text{
+    display: flex;
+    flex-wrap: wrap;
+}
